@@ -13,4 +13,7 @@ snapshot uses the configuration file created by the AWS cli. e.g.
 
 ## Running
 
-'pipenv run python Snapshot/Snapshot.py'
+'pipenv run python Snapshot/Snapshot.py <command> <--project=PROJECT>'
+
+*command* is list, start, or stop
+*project* is optional
